@@ -21,7 +21,6 @@ const PaginaProtegida = ({ isLoggedIn , setLoggedin}) => {
     } catch(error){
       alert("Error fetcheabdo el vino");
     }
-  
     // if (data.length >0){
     //   const indiceRandom = Math.floor(Math.random() * data.length);
     //   setVino(data[indiceRandom]);
